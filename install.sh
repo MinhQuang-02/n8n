@@ -10,7 +10,7 @@ CYAN='\e[1;36m'
 NC='\e[0m'
 
 # !!! THAY DOI URL NAY thanh link tai script cua ban !!!
-SCRIPT_URL="https://github.com/MinhQuang-02/n8n/blob/main/n8n-host.sh" # VI DU: Link raw GitHub
+SCRIPT_URL="https://raw.githubusercontent.com/MinhQuang-02/n8n/main/n8n-host.sh" # VI DU: Link raw GitHub
 
 SCRIPT_NAME="n8n-host" #path/to/script/name
 # Khuyen nghi dung /usr/local/bin cho script tuy chinh
@@ -121,7 +121,7 @@ install_script() {
     fi
     echo -e "${YELLOW}[*] Tai ve file template...${NC}"
 
-    curl -fsSL -o "/n8n-templates/${TEMPLATE_FILE_NAME}" "https://github.com/MinhQuang-02/n8n/blob/main/templates/${TEMPLATE_FILE_NAME}"
+    curl -fsSL -o "/n8n-templates/${TEMPLATE_FILE_NAME}" "https://raw.githubusercontent.com/MinhQuang-02/n8n/main/templates/${TEMPLATE_FILE_NAME}"
     if [[ $? -ne 0 ]]; then
         echo -e "${RED}[!] Loi: Khong the tai ve file template.${NC}"
         exit 1
