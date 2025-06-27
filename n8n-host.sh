@@ -1626,7 +1626,7 @@ show_menu() {
   clear
   printf "${CYAN}+==================================================================================+${NC}\n"
   printf "${CYAN}|                                N8N Cloud Manager                                 |${NC}\n"
-  printf "${CYAN}|                    Powered by Thế Giới Số - https://tgs.com.vn                     |${NC}\n"
+  printf "${CYAN}|                    Powered by Thế Giới Số - https://tgs.com.vn                   |${NC}\n"
   printf "${CYAN}+==================================================================================+${NC}\n"
   echo ""
   echo -e " ${YELLOW}Phim tat: Nhan Ctrl + C hoac nhap 0 de thoat${NC}" 
